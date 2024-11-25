@@ -1,0 +1,120 @@
+ls - List directory contents.
+Example: ls -l (detailed view)
+
+cd - Change directory.
+Example: cd /home/user
+
+pwd - Print current directory path.
+
+mkdir - Create a new directory.
+Example: mkdir myfolder
+
+rmdir - Remove an empty directory.
+Example: rmdir myfolder
+
+rm - Remove files or directories.
+Example: rm file.txt, rm -r myfolder (recursive)
+
+cp - Copy files or directories.
+Example: cp file1.txt file2.txt
+
+mv - Move or rename files or directories.
+Example: mv file1.txt newname.txt
+
+touch - Create an empty file.
+Example: touch newfile.txt
+
+find - Search for files.
+Example: find /home -name file.txt
+
+locate - Quickly find files by name (requires mlocate database).
+Example: locate file.txt
+
+2. Viewing and Editing Files
+cat - Display file contents.
+Example: cat file.txt
+
+more - View file contents page by page.
+Example: more file.txt
+
+less - Similar to more, but with backward navigation.
+Example: less file.txt
+
+nano - Open a file in a simple text editor.
+Example: nano file.txt
+
+vim or vi - Advanced text editor.
+Example: vim file.txt
+
+head - View the first few lines of a file.
+Example: head -n 10 file.txt
+
+tail - View the last few lines of a file.
+Example: tail -n 10 file.txt
+
+3. User Management
+whoami - Display the current user.
+who - Show logged-in users.
+id - Display user ID and group ID.
+adduser - Add a new user (requires sudo).
+Example: sudo adduser username
+
+passwd - Change a user's password.
+Example: passwd
+
+su - Switch user.
+Example: su username
+
+logout - Log out of the current session.
+4. Permissions and Ownership
+chmod - Change file permissions.
+Example: chmod 755 file.txt
+
+chown - Change file ownership.
+Example: chown user:group file.txt
+
+ls -l - View file permissions.
+
+5. Process Management
+ps - Display currently running processes.
+Example: ps aux (detailed view)
+
+top - Show real-time process info.
+kill - Terminate a process.
+Example: kill PID (replace PID with the process ID)
+
+htop - Interactive process viewer (requires installation).
+
+6. Disk Usage and Storage
+df - Check disk space usage.
+Example: df -h (human-readable format)
+
+du - Check directory or file space usage.
+Example: du -sh myfolder
+
+mount - Mount a filesystem.
+Example: mount /dev/sdb1 /mnt
+
+umount - Unmount a filesystem.
+Example: umount /mnt
+
+7. Networking
+ping - Test network connectivity.
+Example: ping google.com
+ifconfig - View network interface details (deprecated, use ip).
+Example: ifconfig
+
+ip - Manage network interfaces.
+Example: ip addr
+
+curl - Fetch content from a URL.
+Example: curl https://example.com
+
+wget - Download files from a URL.
+Example: wget https://example.com/file.zip
+
+scp - Copy files over SSH.
+Example: scp file.txt user@remote:/path/to/destination
+
+ssh - Connect to a remote server via SSH.
+Example: ssh user@remote.com
